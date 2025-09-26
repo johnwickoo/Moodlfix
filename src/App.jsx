@@ -244,7 +244,7 @@ const App = () => {
         {trendingMovies.length > 0 && (
           <section className="trending">
             <h2>Trending Movies</h2>
-            <ul>
+            <ul className='mt-10'>
               {trendingMovies.map((movie, index) => (
                 <li key={movie.$id}>
                   <p>
