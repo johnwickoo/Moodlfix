@@ -4,7 +4,7 @@ import Search from './components/Search'
 import Spinner from './components/Spinner';
 import { MovieCard } from './components/MovieCard';
 import { useDebounce } from 'react-use';
-import { getTrendingMovies,updateSearchCount } from './appWrite';
+import { getTrendingMovies,updateSearchCount } from './appwrite';
 import { Filters } from './components/Filter';
 
 
